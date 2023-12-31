@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://twisthead.github.io/daily-journal/'
 languageCode = 'en-us'
 title = "Saqib's Daily Journals"
-custom_css = ["css/main.css"]
+custom_css = ["static/main.css"]

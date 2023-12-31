@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "7cfe814fb7356152",
+    "type": "split",
+    "children": [
+      {
+        "id": "df5208e428ccf315",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "316de90153a59095",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "14-12-2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b83f7f4ed39624a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "31-12-2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "af859b854575fc67",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8bbc762280253f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46f58a4ed2ab7798",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
+            }
+          },
+          {
+            "id": "6c181e477bd62923",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8c0447d0b3e6b254",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "426fee12438faeac",
+    "type": "split",
+    "children": [
+      {
+        "id": "5aeed55b49a72502",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0cdcc228d9b5a13",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "31-12-2023.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "77ddfc6e6cf359b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "31-12-2023.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "11cbed967c600dc1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "87785e7123649056",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "31-12-2023.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b83f7f4ed39624a1",
+  "lastOpenFiles": [
+    "14-12-2023.md",
+    "31-12-2023.md",
+    "15-12-2023.md",
+    "09-12-2023.md",
+    "day.md",
+    "day2.md",
+    "day0.md",
+    "day1.md",
+    "300f41pmf041-2023.md",
+    "300f38pmf038-2023.md",
+    "2023-12-31.md",
+    "---.md"
+  ]
+}

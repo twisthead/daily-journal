@@ -1,4 +1,4 @@
 ---
 title: About
 ---
-This is just a testing website, in which I am experimenting with Hugo. 
+I post my daily journals here. This site is made using hugo and Obsidian.

@@ -1,3 +1,13 @@
 {{ define "main" }}
   {{ .Content }}
+
+<ul>
+  {{ $pages := where .Site.RegularPages "Section" "journal" }}
+  {{ $sortedPages := sort $pages ".Date" "desc" }}
+  {{ range $sortedPages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+
+
 {{ end }}

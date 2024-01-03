@@ -1,5 +1,8 @@
 {{ define "main" }}
-<p class="text-center"><strong>Journal of {{ .Title }}</strong><br>
-  [<a href="/daily-journal/" class="text-blue-500">Back</a>] </p>
-  {{ .Content }}
+<p class="text-center"><strong>Journal of {{ dateFormat "Jan 2, 2006" .Date }}</strong></p>
+<p>
+  <a class="py-2 text-center block w-fit m-auto text-blue-500 hover:text-blue-900 hover:underline" href="/daily-journal/">
+    Back</a>
+</p>
+<p>  {{ .Content }}</p>
 {{ end }}

@@ -1,13 +1,15 @@
 {{ define "main" }}
   {{ .Content }}
 
-<ul class="text-center">
+<div class="grid lg:grid-cols-4 md:grid-cols-2 sm: grid-cols-2 gap-2">
   {{ $pages := where .Site.RegularPages "Section" "journal" }}
   {{ $sortedPages := sort $pages ".Date" "desc" }}
   {{ range $sortedPages }}
-    <li class="text-lg text-black-300 py-1s"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+   
+      <a class="hover:text-white" href="{{ .Permalink }}"> <div class="text-black-300  text-center border-solid border border-teal-700 hover:bg-teal-700">{{ dateFormat "Jan 2, 2006" .Date }}</div></a>
+    
   {{ end }}
-</ul>
 
+</div>
 
 {{ end }}

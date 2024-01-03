@@ -5,13 +5,24 @@
 <title>{{ .Title }} | {{ .Site.Title }}</title>
 </head>
 
-<body>
+<body class="bg-gray-100 text-gray-800">
 
-<div class="body-center">
-<h1 class="home-heading"><a href="/daily-journal/">{{ .Site.Title }}</a></h1>  
-{{ partial "nav.html" }}
- <div class="main-content"> {{ block "main" . }}</div>
-  {{ end }}
-  </div>
+<div class="container mx-auto p-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="col-span-1"></div> 
+    <div class="col-span-1">
+        <header><h1 class="text-3xl m3 p-2 text-center"><a href="/daily-journal/">{{ .Site.Title }}</a></h1>  
+<p class="m-2">{{ partial "nav.html" }}</p>
+</header>
+<main>
+     <div class="p-3"> {{ block "main" . }}
+  {{ end }}</div>
+</main>
+      </div>
+    <div class="col-span-1"></div> 
+</div>
+</div>
+
+
 </body>
 </html>

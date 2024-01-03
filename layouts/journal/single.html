@@ -1,4 +1,5 @@
 {{ define "main" }}
-<p><strong>Journal of {{ .Title }}</strong> | <a href="/daily-journal/">Back</a> </p>
+<p class="text-center"><strong>Journal of {{ .Title }}</strong><br>
+  [<a href="/daily-journal/" class="text-blue-500">Back</a>] </p>
   {{ .Content }}
 {{ end }}

@@ -1,11 +1,11 @@
 {{ define "main" }}
   {{ .Content }}
 
-<ul>
+<ul class="text-center">
   {{ $pages := where .Site.RegularPages "Section" "journal" }}
   {{ $sortedPages := sort $pages ".Date" "desc" }}
   {{ range $sortedPages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    <li class="text-lg text-black-300 py-1s"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
   {{ end }}
 </ul>
 

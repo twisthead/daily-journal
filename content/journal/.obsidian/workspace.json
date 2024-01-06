@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "df5208e428ccf315",
+        "id": "bd5efd8b8ec24640",
         "type": "tabs",
         "children": [
           {
-            "id": "316de90153a59095",
+            "id": "1f4872a73f411a40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14-12-2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b83f7f4ed39624a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-01-2024.md",
+                "file": "2024-01-06.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "426fee12438faeac",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-01-2024.md",
+                "file": "2024-01-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-01-2024.md",
+                "file": "2024-01-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-01-2024.md"
+                "file": "2024-01-06.md"
               }
             }
           }
@@ -159,11 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b83f7f4ed39624a1",
+  "active": "46f58a4ed2ab7798",
   "lastOpenFiles": [
     "31-12-2023.md",
     "15-12-2023.md",
     "03-01-2024.md",
+    "2024-01-06.md",
+    "img.png",
+    "img.png.png",
+    "Pasted.md",
+    "07-01-2024.md",
+    "14-12-2023.md",
     "2024/1/1.md",
     "2024/1/2.md",
     "2024/1/Untitled/Untitled.md",
@@ -171,7 +165,6 @@
     "2024/1/Untitled",
     "2024",
     "09-12-2023.md",
-    "14-12-2023.md",
     "day.md",
     "day2.md",
     "day0.md",

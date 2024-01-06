@@ -2,27 +2,44 @@
 <html>
 <head>
 {{ partial "meta.html" }}
-<title>{{ .Title }} | {{ .Site.Title }}</title>
+<title>
+  {{ if .Title }}
+  {{ .Title }} | {{ .Site.Title }}
+  {{ else }}
+  {{ dateFormat "Jan 2, 2006" .Date }} | {{ .Site.Title }}
+  {{ end }}
+</title>
 </head>
+<style>
+  nav{
+    margin-bottom: 0;
+  }
+  header {
+    padding-bottom: 0;
+  }
+</style>
+<body>
+        <header>
+          <nav>
+            <h1>Saqib's Daily Journal 📜</h1>
+            <ul>
+              <li>
+                <a href="/daily-journal/">Home</a>
+              </li>
+              <li>
+                <a href="/daily-journal/about/">About</a>
+              </li>
+            </ul>
+          </nav>
 
-<body class="bg-gray-200 text-gray-800">
+        </header>
+<main>
+  {{ block "main" . }}
+    {{ end }}</main>
 
-<div class="container mx-auto p-4">
-  <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-    <div class="col-span-1"></div> 
-    <div class="col-span-2">
-        <header><h1 class="text-3xl m3 p-2 text-center font-bold"><a href="/daily-journal/">{{ .Site.Title }}</a></h1>  
-<p class="m-2">{{ partial "nav.html" }}</p>
-</header>
-
-     <div class="p-3"> {{ block "main" . }}
-  {{ end }}</div>
-
-      </div>
-    <div class="col-span-1"></div> 
-</div>
-</div>
-
+<footer><hr>&copy; 2023 <a href="https://github.io/twisthead">Nazm Us Saqib</a> | 
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</footer>
 
 </body>
 </html>

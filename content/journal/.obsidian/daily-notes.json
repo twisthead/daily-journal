@@ -1,4 +1,4 @@
 {
   "autorun": true,
-  "format": "DD-MM-YYYY"
+  "format": "YYYY-MM-DD"
 }

@@ -1,4 +1,4 @@
 baseURL = 'https://twisthead.github.io/daily-journal/'
 languageCode = 'en-us'
-title = "Saqib's Daily Journals"
+title = "Saqib's Daily Journal"
 custom_css = ["static/main.css"]

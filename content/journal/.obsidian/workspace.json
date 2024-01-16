@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-01-06.md",
+                "file": "31-12-2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabeticalReverse"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "426fee12438faeac",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-01-06.md",
+                "file": "31-12-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-01-06.md",
+                "file": "31-12-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-01-06.md"
+                "file": "31-12-2023.md"
               }
             }
           }
@@ -147,12 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46f58a4ed2ab7798",
+  "active": "1f4872a73f411a40",
   "lastOpenFiles": [
+    "03-01-2024.md",
     "31-12-2023.md",
     "15-12-2023.md",
-    "03-01-2024.md",
     "2024-01-06.md",
+    "2024-01-16.md",
+    "2024-01-10.md",
     "img.png",
     "img.png.png",
     "Pasted.md",

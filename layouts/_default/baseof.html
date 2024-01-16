@@ -3,11 +3,17 @@
 <head>
 {{ partial "meta.html" }}
 <title>
-  {{ if .Title }}
-  {{ .Title }} | {{ .Site.Title }}
-  {{ else }}
-  {{ dateFormat "Jan 2, 2006" .Date }} | {{ .Site.Title }}
-  {{ end }}
+ {{ if .Title }}
+    {{ if eq .Title "Home" }}
+      {{ .Site.Title }}
+    {{ else }}
+   
+
+    {{ .Title }} | {{ .Site.Title }} {{ end }}
+    {{ else }}
+
+      {{ dateFormat "Jan 2, 2006" .Date }} | {{ .Site.Title }}
+{{ end }}
 </title>
 </head>
 <style>
@@ -37,8 +43,7 @@
   {{ block "main" . }}
     {{ end }}</main>
 
-<footer><hr>&copy; 2023 <a href="https://github.io/twisthead">Nazm Us Saqib</a> | 
-This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<footer><hr>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 </footer>
 
 </body>

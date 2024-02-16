@@ -1,13 +1,17 @@
 {{ define "main" }}
   {{ .Content }}
-
+<div class="entries">
   {{ $pages := where .Site.RegularPages "Section" "journal" }}
   {{ $sortedPages := sort $pages ".Date" "desc" }}
   {{ range $sortedPages }}
    
 
-  &rarr; <a href="{{ .Permalink }}">{{ dateFormat "Jan 02, 2006" .Date }}</a>&nbsp;&nbsp;
-
+<a href="{{ .Permalink }}" class="entry-links">
+<p class="date-link">
+{{ dateFormat "Jan 02, 2006" .Date }}
+</p>
+</a>
   {{ end }}
+</div>
 
 {{ end }}

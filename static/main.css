@@ -25,7 +25,7 @@
     --width-card: 285px;
     --width-card-medium: 460px;
     --width-card-wide: 800px;
-    --width-content: 1080px;
+    --width-content: 800px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -545,6 +545,7 @@ blockquote footer {
     flex-direction: row;
     gap: 0px 30px;    
     flex-wrap: wrap;
+    justify-content: center;
 }
 .date-link {
     background-color: var(--color-box);
